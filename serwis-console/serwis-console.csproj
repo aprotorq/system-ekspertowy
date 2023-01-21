@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FactoryItems\Laptop.cs" />
+    <Compile Include="FactoryItems\PC.cs" />
     <Compile Include="FactoryItems\Printer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,6 +62,7 @@
     <EmbeddedResource Include="Questions.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Questions.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

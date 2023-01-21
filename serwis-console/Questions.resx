@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="IsDefaultPC" xml:space="preserve">
+    <value>Czy Komputer stacjonarny?</value>
+  </data>
   <data name="IsDefaultPrinter" xml:space="preserve">
     <value>Czy drukarka atramentowa?</value>
   </data>
@@ -168,6 +171,48 @@
   <data name="NoSupprt" xml:space="preserve">
     <value>Chwilowy brak wsparcia - odeślij klienta do innego serwisu</value>
   </data>
+  <data name="PC_T1" xml:space="preserve">
+    <value>Czy mozna włączyć</value>
+  </data>
+ <data name="PC_T2" xml:space="preserve">
+    <value>Wymień zasilacz</value>
+  </data>
+  <data name="PC_T3" xml:space="preserve">
+    <value>Czy załacza się bios i POST?</value>
+  </data>
+  <data name="PC_T4" xml:space="preserve">
+    <value>Zdiagnozuj problem zgodnie z rodzajem dzwięku według dokumentacji</value>
+  </data>
+  <data name="PC_T5" xml:space="preserve">
+    <value>Czy system operacyjny się ładuje prawidłowo?</value>
+  </data>
+  <data name="PC_T6" xml:space="preserve">
+    <value>Czy system loguje błedy</value>
+  </data>
+  <data name="PC_T7" xml:space="preserve">
+    <value>Napraw sterownik/bibliotekę/uprawnienie zgodnie z logiem.</value>
+  </data>
+  <data name="PC_N1" xml:space="preserve">
+    <value>Czy prąd jest dostarczony?</value>
+  </data>
+  <data name="PC_N2" xml:space="preserve">
+    <value>Zmień kabel zasilający</value>
+  </data>
+  <data name="PC_N3" xml:space="preserve">
+    <value>Czy komputer wydaje dzwięki/piski?</value>
+  </data>
+  <data name="PC_N4" xml:space="preserve">
+    <value>Sprawdz szyne zasilajaca płyty głównej</value>
+  </data>
+  <data name="PC_N4" xml:space="preserve">
+    <value>Sprawdz szynę zasilajaca płyty głównej</value>
+  </data>
+  <data name="PC_N5" xml:space="preserve">
+    <value>Włacz odzyskiwanie systemu</value>
+  </data>
+  <data name="PC_N6" xml:space="preserve">
+    <value>Włacz test i naprawianie systemu</value>
+  </data>
   <data name="Printer" xml:space="preserve">
     <value>Wybrana została diagnoza drukarki</value>
   </data>
@@ -206,5 +251,53 @@
   </data>
   <data name="T9" xml:space="preserve">
     <value>Czy drukarka zgłasza błędy?</value>
+  </data>
+  <data name="L_N1" xml:space="preserve">
+    <value>Wymień baterię</value>
+  </data>
+  <data name="L_N2" xml:space="preserve">
+    <value>Wymień matrycę</value>
+  </data>
+  <data name="L_N3" xml:space="preserve">
+    <value>Czy test pamięci ram prawidłowy?</value>
+  </data>
+  <data name="L_N4" xml:space="preserve">
+    <value>Wymień pamiec RAM</value>
+  </data>
+  <data name="L_N5" xml:space="preserve">
+    <value>Zmień dysk i odtwórz system z dysku odzyskiwania</value>
+  </data>
+  <data name="L_N6" xml:space="preserve">
+    <value>Czy mozna właczyc tryb awaryjny?</value>
+  </data>
+  <data name="L_N7" xml:space="preserve">
+    <value>Zainstaluj system operacyjny z kopii zapasowej</value>
+  </data>
+  <data name="L_T1" xml:space="preserve">
+    <value>Czy mozna włączyć</value>
+  </data>
+  <data name="L_T2" xml:space="preserve">
+    <value>Czy widać obraz?</value>
+  </data>
+  <data name="L_T3" xml:space="preserve">
+    <value>Czy przeszedł test POST?</value>
+  </data>
+  <data name="L_T4" xml:space="preserve">
+    <value>Czy test dysku prawidłowy?</value>
+  </data>
+  <data name="L_T5" xml:space="preserve">
+    <value>Sprawdz poziom napiecia na plycie glownej</value>
+  </data>
+  <data name="L_T6" xml:space="preserve">
+    <value>Czy system operacyjny sie ładuje prawidłowo?</value>
+  </data>
+  <data name="L_T7" xml:space="preserve">
+    <value>Czy system wykazuje błedy?</value>
+  </data>
+  <data name="L_T8" xml:space="preserve">
+    <value>Wprowadz progam naprawczy zgodnie z spisem błędów</value>
+  </data>
+  <data name="L_T9" xml:space="preserve">
+    <value>Włacz odzyskiwanie systemu</value>
   </data>
 </root>

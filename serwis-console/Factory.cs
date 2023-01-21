@@ -11,12 +11,18 @@ namespace serwis_console
     {
         public static bool Question()
         {
-            
             string result = Console.ReadLine().ToUpper();
+            bool val = false;
+            if (!(result.Equals("T") || result.Equals("N")))
+            {
+                Console.WriteLine("Jako odpowiedź wpisz tylko 't' czyli tak lub 'n' czyli nie");
+            }
             if (result.Equals("T"))
-                return true;
-            else return false;
+                val= true;
+            else if(result.Equals("N")) val= false;
+            else if (result.Equals("Q")) Environment.Exit(0); 
 
+            return val;
         }
 
     }

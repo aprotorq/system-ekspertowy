@@ -10,7 +10,6 @@ namespace serwis_console.FactoryItems
 {
     public class Printer
     {
-        public bool result;
        
         public Printer()
         {
@@ -19,7 +18,7 @@ namespace serwis_console.FactoryItems
 
         public void DisplayQuestion(string methodName, string whenTrue, string whenFalse)
         {
-            Console.WriteLine(Questions.ResourceManager.GetString(methodName));
+            Console.WriteLine(Questions.ResourceManager.GetString(methodName) +": ");
             if (Factory.Question())
             {
                 MethodInfo mTrue = GetType().GetMethod(whenTrue);
@@ -35,6 +34,7 @@ namespace serwis_console.FactoryItems
 
         public void DisplayQuestion(string methodName)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine(Questions.ResourceManager.GetString(methodName));
         }
 

@@ -61,11 +61,164 @@ namespace serwis_console {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Czy Komputer stacjonarny?.
+        /// </summary>
+        internal static string IsDefaultPC {
+            get {
+                return ResourceManager.GetString("IsDefaultPC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Czy drukarka atramentowa?.
         /// </summary>
         internal static string IsDefaultPrinter {
             get {
                 return ResourceManager.GetString("IsDefaultPrinter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wymień baterię.
+        /// </summary>
+        internal static string L_N1 {
+            get {
+                return ResourceManager.GetString("L_N1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wymień matrycę.
+        /// </summary>
+        internal static string L_N2 {
+            get {
+                return ResourceManager.GetString("L_N2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy test pamięci ram prawidłowy?.
+        /// </summary>
+        internal static string L_N3 {
+            get {
+                return ResourceManager.GetString("L_N3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wymień pamiec RAM.
+        /// </summary>
+        internal static string L_N4 {
+            get {
+                return ResourceManager.GetString("L_N4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zmień dysk i odtwórz system z dysku odzyskiwania.
+        /// </summary>
+        internal static string L_N5 {
+            get {
+                return ResourceManager.GetString("L_N5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy mozna właczyc tryb awaryjny?.
+        /// </summary>
+        internal static string L_N6 {
+            get {
+                return ResourceManager.GetString("L_N6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zainstaluj system operacyjny z kopii zapasowej.
+        /// </summary>
+        internal static string L_N7 {
+            get {
+                return ResourceManager.GetString("L_N7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy mozna włączyć.
+        /// </summary>
+        internal static string L_T1 {
+            get {
+                return ResourceManager.GetString("L_T1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy widać obraz?.
+        /// </summary>
+        internal static string L_T2 {
+            get {
+                return ResourceManager.GetString("L_T2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy przeszedł test POST?.
+        /// </summary>
+        internal static string L_T3 {
+            get {
+                return ResourceManager.GetString("L_T3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy test dysku prawidłowy?.
+        /// </summary>
+        internal static string L_T4 {
+            get {
+                return ResourceManager.GetString("L_T4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sprawdz poziom napiecia na plycie glownej.
+        /// </summary>
+        internal static string L_T5 {
+            get {
+                return ResourceManager.GetString("L_T5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy system operacyjny sie ładuje prawidłowo?.
+        /// </summary>
+        internal static string L_T6 {
+            get {
+                return ResourceManager.GetString("L_T6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy system wykazuje błedy?.
+        /// </summary>
+        internal static string L_T7 {
+            get {
+                return ResourceManager.GetString("L_T7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wprowadz progam naprawczy zgodnie z spisem błędów.
+        /// </summary>
+        internal static string L_T8 {
+            get {
+                return ResourceManager.GetString("L_T8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Włacz odzyskiwanie systemu.
+        /// </summary>
+        internal static string L_T9 {
+            get {
+                return ResourceManager.GetString("L_T9", resourceCulture);
             }
         }
         
@@ -210,6 +363,123 @@ namespace serwis_console {
         internal static string NoSupprt {
             get {
                 return ResourceManager.GetString("NoSupprt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy prąd jest dostarczony?.
+        /// </summary>
+        internal static string PC_N1 {
+            get {
+                return ResourceManager.GetString("PC_N1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zmień kabel zasilający.
+        /// </summary>
+        internal static string PC_N2 {
+            get {
+                return ResourceManager.GetString("PC_N2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy komputer wydaje dzwięki/piski?.
+        /// </summary>
+        internal static string PC_N3 {
+            get {
+                return ResourceManager.GetString("PC_N3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sprawdz szynę zasilajaca płyty głównej.
+        /// </summary>
+        internal static string PC_N4 {
+            get {
+                return ResourceManager.GetString("PC_N4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Włacz odzyskiwanie systemu.
+        /// </summary>
+        internal static string PC_N5 {
+            get {
+                return ResourceManager.GetString("PC_N5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Włacz test i naprawianie systemu.
+        /// </summary>
+        internal static string PC_N6 {
+            get {
+                return ResourceManager.GetString("PC_N6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy mozna włączyć.
+        /// </summary>
+        internal static string PC_T1 {
+            get {
+                return ResourceManager.GetString("PC_T1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Wymień zasilacz.
+        /// </summary>
+        internal static string PC_T2 {
+            get {
+                return ResourceManager.GetString("PC_T2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy załacza się bios i POST?.
+        /// </summary>
+        internal static string PC_T3 {
+            get {
+                return ResourceManager.GetString("PC_T3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Zdiagnozuj problem zgodnie z rodzajem dzwięku według dokumentacji.
+        /// </summary>
+        internal static string PC_T4 {
+            get {
+                return ResourceManager.GetString("PC_T4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy system operacyjny się ładuje prawidłowo?.
+        /// </summary>
+        internal static string PC_T5 {
+            get {
+                return ResourceManager.GetString("PC_T5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Czy system loguje błedy.
+        /// </summary>
+        internal static string PC_T6 {
+            get {
+                return ResourceManager.GetString("PC_T6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Napraw sterownik/bibliotekę/uprawnienie zgodnie z logiem..
+        /// </summary>
+        internal static string PC_T7 {
+            get {
+                return ResourceManager.GetString("PC_T7", resourceCulture);
             }
         }
         
